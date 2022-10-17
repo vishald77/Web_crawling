@@ -158,11 +158,8 @@ def parse():
     workbook.close()
         # sys.exit()
 
-
-
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     # product_url()
     # Crawl()
     parse()
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
