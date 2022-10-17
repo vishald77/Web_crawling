@@ -108,7 +108,7 @@ def parse():
         print(filename)
         search=filename.split('/company/')[1].split('_')[0]
         print(search)
-        # filename='C:\\Users\\visha338\\Desktop\\Manufacturer\\new_project\\sgelectronics\\HTML\\esel_pte_ltd.html'
+
         with open(filename, 'rb') as f:
             text = f.read()
             soup = BeautifulSoup(text)
